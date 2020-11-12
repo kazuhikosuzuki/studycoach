@@ -1,0 +1,16 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @meeting.category %>
+</p>
+
+<p>
+  <strong>Start time:</strong>
+  <%= @meeting.start_time.strftime("%Y-%m-%d %H:%M:%S")%>
+  <strong>finish time:</strong>
+  <%= @meeting.finish_time.strftime("%Y-%m-%d %H:%M:%S") %>
+</p>
+
+<%= link_to 'Edit', edit_meeting_path(@meeting) %> |
+<%= link_to 'Back', meetings_path %>
