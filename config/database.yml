@@ -15,7 +15,7 @@ default: &default
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   username: root
   password:
-  socket: /tmp/mysql.sock
+  
 
 development:
   <<: *default
@@ -52,3 +52,4 @@ production:
   database: studycoach_production
   username: studycoach
   password: <%= ENV['STUDYCOACH_DATABASE_PASSWORD'] %>
+  socket: /tmp/mysql.sock
