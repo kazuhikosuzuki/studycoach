@@ -56,3 +56,7 @@ gem 'devise'
 gem 'simple_calendar', '~> 2.0'
 gem 'kaminari'
 
+group :production do
+  gem 'rails_12factor'
+end
+
