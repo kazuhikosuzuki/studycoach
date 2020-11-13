@@ -55,6 +55,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'devise'
 gem 'simple_calendar', '~> 2.0'
 gem 'kaminari'
+gem 'pry-rails'
 
 group :production do
   gem 'rails_12factor'
