@@ -16,6 +16,7 @@ default: &default
   username: root
   password:
   socket: /tmp/mysql.sock
+  
 
 development:
   <<: *default
@@ -52,3 +53,4 @@ production:
   database: studycoach_production
   username: studycoach
   password: <%= ENV['STUDYCOACH_DATABASE_PASSWORD'] %>
+ 
