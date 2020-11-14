@@ -51,6 +51,9 @@ test:
 production:
   <<: *default
   database: studycoach_production
+  username: root
+  password: <%= ENV['DATABASE_PASSWORD'] %>
+  socket: /var/lib/mysql/mysql.sock
   username: studycoach
   password: <%= ENV['STUDYCOACH_DATABASE_PASSWORD'] %>
  
