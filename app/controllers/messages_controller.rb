@@ -16,6 +16,7 @@ class MessagesController < ApplicationController
       redirect_to rooms_path
     end
   end
+ 
    private
  
    def message_params
