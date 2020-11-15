@@ -107,28 +107,28 @@
 - belongs_to :room
 - belongs_to :user
 
-##　実装した機能についてのGIFと説明
-topページから予定入力後の画像です。
+## 実装した機能についてのGIFと説明
+・topページから予定入力後の画像です。<br>
 予定はページネーションで３件ずつ表示される仕組みになっています。
 
 https://gyazo.com/38ca734317ccc841411a26899db13cda
 
-チャットページに遷移後、ルーム内でチャットができます。
+・チャットページに遷移後、ルーム内でチャットができます。
 
 https://gyazo.com/a06a030ba709ad6578912b12b8095feb
 
-##　ローカルでの動作方法
-Ruby Version : ruby 2.6.5p114 (2019-10-01 revision 67812)
+## ローカルでの動作方法
+Ruby Version : ruby 2.6.5p114 (2019-10-01 revision 67812)<br>
 Rails Version : Rails 6.0.3.4
 
-｀git clone｀し、｀bundle install｀を実行し、gemのインストール。
-データベースの作成のため、｀rails db:create｀,｀rails db:migrate｀の実行。
-最後に｀rails s｀を実行するとローカルでクローンされたファイルが実行できる。
+`git clone`し、`bundle install`を実行し、gemのインストール。<br>
+データベースの作成のため、`rails db:create`,`rails db:migrate`の実行。<br>
+最後に`rails s`を実行するとローカルでクローンされたファイルが実行できる。
 
 ### 環境構築
 - Ruby/Rails/Scaffolds/VSCode/AWS
 
 ## Authors
-Kazuhiko Suzuki
-・GitHub(https://github.com/kazuhikosuzuki)
-・Qiita(https://qiita.com/86suzukikazuhiko)
+Kazuhiko Suzuki<br>
+- [GitHub](https://github.com/kazuhikosuzuki)<br>
+- [Qiita](https://qiita.com/86suzukikazuhiko)
