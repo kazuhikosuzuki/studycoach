@@ -2,21 +2,21 @@
 
   study_coach
 
-* URL 
+・URL 
 
 - http://18.180.97.43/ 
 
-* Basic Authentication
+・Basic Authentication
 
 - userID: admin
 - password :2222
 
-* test account
+・test account
 - user: test_user
 - email: test@gmail.com
 - password :test123
 
-##　利用方法
+## 利用方法
 
 ユーザー新規登録、もしくはユーザーログイン後、topページで学習予定を登録します。
 チャットページにリンクで遷移後は、チャットルーム作成後、メッセージもしくは画像を送信できます。
@@ -32,14 +32,11 @@
 
 ## 要件定義
 
-|       | ユースケース         |
-|            --------------------- |
-| name     | string | null: false |
-| email    | string | null: false |
-| password | string | null: false |
-
-
-
+| 機能               | 目的                                         | ストーリー（ユースケース）                                                                                                           | 
+| ------------------ | -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | 
+| カレンダー機能     | 学習予定の管理のため                         | 月単位でのカレンダーを表示することができる。予定、開始時間、終了時間をカレンダー上部に表示させ、予定はカレンダーの中にも表示させる。 | 
+| ユーザー管理機能   | ユーザーを管理するため                       | ログイン・ログアウトの機能があり、名前,email,passwordを登録後にログインできる。またページ内でのアカウント編集機能もできる。          | 
+| チャットアプリ機能 | 学習管理に必要な情報共有、モチベーション管理 | メッセージと画像の両方をチャットで送信することができる。                                                                             | 
 ## 実装予定の機能
 
 ユーザーのグループ機能。カテゴリー別のチャットルームの実装など。
@@ -110,9 +107,28 @@
 - belongs_to :room
 - belongs_to :user
 
+##　実装した機能についてのGIFと説明
+topページから予定入力後の画像です。
+予定はページネーションで３件ずつ表示される仕組みになっています。
+
+https://gyazo.com/38ca734317ccc841411a26899db13cda
+
+チャットページに遷移後、ルーム内でチャットができます。
+
+https://gyazo.com/a06a030ba709ad6578912b12b8095feb
+
 ##　ローカルでの動作方法
+Ruby Version : ruby 2.6.5p114 (2019-10-01 revision 67812)
+Rails Version : Rails 6.0.3.4
+
+｀git clone｀し、｀bundle install｀を実行し、gemのインストール。
+データベースの作成のため、｀rails db:create｀,｀rails db:migrate｀の実行。
+最後に｀rails s｀を実行するとローカルでクローンされたファイルが実行できる。
+
+### 環境構築
+- Ruby/Rails/Scaffolds/VSCode/AWS
 
 ## Authors
 Kazuhiko Suzuki
-・[GitHub](https://github.com/kazuhikosuzuki)
-・[Qiita](https://qiita.com/86suzukikazuhiko)
+・GitHub(https://github.com/kazuhikosuzuki)
+・Qiita(https://qiita.com/86suzukikazuhiko)
