@@ -129,4 +129,5 @@ Rails Version : Rails 6.0.3.4
 ## Authors
 Kazuhiko Suzuki<br>
 - [GitHub](https://github.com/kazuhikosuzuki)<br>
-- [Qiita](https://qiita.com/86suzukikazuhiko)
+- [Qiita](https://qiita.com/86suzukikazuhiko)<br>
+- [Twitter](https://twitter.com/lnDMRvC5vNWaImE)
