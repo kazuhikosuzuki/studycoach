@@ -1,11 +1,9 @@
-# README
+# Project Title 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
+  study_coach2020app
 
 * Ruby version
+  ruby 2.6.5p114 (2019-10-01 revision 67812) 
 
 * System dependencies
 
@@ -77,8 +75,6 @@ Things you may want to cover:
 - belongs_to :room
 - belongs_to :user
 
-
-* Database initialization
 
 * How to run the test suite
 
