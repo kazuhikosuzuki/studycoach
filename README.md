@@ -1,6 +1,4 @@
-# Project Title 
-
-  <span style="font-size: 200%">study_coach</span>
+# study_coach
 
 ・URL 
 
@@ -111,11 +109,11 @@
 ・topページから予定入力後の画像です。<br>
 予定はページネーションで３件ずつ表示される仕組みになっています。
 
-![alt]("https://gyazo.com/38ca734317ccc841411a26899db13cda" width="500px")
+("https://gyazo.com/38ca734317ccc841411a26899db13cda" ）
 
 ・チャットページに遷移後、ルーム内でチャットができます。
 
-![alt]("https://gyazo.com/a06a030ba709ad6578912b12b8095feb" width="500px")
+("https://gyazo.com/a06a030ba709ad6578912b12b8095feb"）
 
 ## ローカルでの動作方法
 Ruby Version : ruby 2.6.5p114 (2019-10-01 revision 67812)<br>
