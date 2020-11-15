@@ -5,13 +5,15 @@ class MeetingsController < ApplicationController
     @meetings = Meeting.where(user_id: current_user).page(params[:page]).order(start_time: :asc).per(3)
   end
 
-  def show; end
+  def show
+  end
 
   def new
     @meeting = Meeting.new
   end
 
-  def edit; end
+  def edit
+  end
 
   def create
     @meeting = Meeting.new(meeting_params)
@@ -57,4 +59,3 @@ class MeetingsController < ApplicationController
     params.require(:meeting).permit(:category, :start_time, :finish_time).merge(user_id: current_user.id)
   end
 end
-
