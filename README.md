@@ -3,13 +3,14 @@
   study_coach2020app
 
 * Ruby version
+
   ruby 2.6.5p114 (2019-10-01 revision 67812) 
 
-* System dependencies
+## Usage
 
-* Configuration
 
-* Database creation
+
+# Database creation
 
 ## users テーブル
 
@@ -75,11 +76,8 @@
 - belongs_to :room
 - belongs_to :user
 
+## Authors
 
-* How to run the test suite
+Kazuhiko Suzuki
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
-
-* ...
