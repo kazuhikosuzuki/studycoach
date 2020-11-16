@@ -2,7 +2,7 @@
 
 ・URL 
 
-- http://18.180.97.43/ 
+- http://studycoach.space/
 
 ・Basic Authentication
 
