@@ -110,11 +110,11 @@
 ・topページから予定入力後の画像です。<br>
 予定はページネーションで３件ずつ表示される仕組みになっています。
 
-https://gyazo.com/38ca734317ccc841411a26899db13cda
+![top](https://user-images.githubusercontent.com/72254144/99312834-f9292100-28a1-11eb-8023-d01e446efa5a.gif)
 
 ・チャットページに遷移後、ルーム内でチャットができます。
 
-https://gyazo.com/a06a030ba709ad6578912b12b8095feb
+![chat](https://user-images.githubusercontent.com/72254144/99312841-faf2e480-28a1-11eb-9401-d54423fee282.gif)
 
 ## ローカルでの動作方法
 Ruby Version : ruby 2.6.5p114 (2019-10-01 revision 67812)<br>
