@@ -125,7 +125,7 @@ Rails Version : Rails 6.0.3.4
 最後に`rails s`を実行するとローカルでクローンされたファイルが実行できる。
 
 ### 環境構築
-- Ruby/Rails/AWS(EC2,RDS,Rout53,S3)
+- Ruby/Rails/JavaScript/AWS(EC2,RDS,Rout53,S3)
 
 ## Authors
 Kazuhiko Suzuki<br>
