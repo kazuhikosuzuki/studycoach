@@ -2,7 +2,7 @@
 
 ・URL 
 
-- http://studycoach.space/
+- http://studycoach.space
 
 ・Basic Authentication
 
