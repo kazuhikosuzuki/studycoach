@@ -1,9 +1,25 @@
-<p id="notice"><%= notice %></p>
 
+  
+          <% if user_signed_in? %>
+           <div align="right"> <%= link_to "ログアウト", destroy_user_session_path, method: :delete,class: :logout_btn  %></div>
+           <% if current_page?(meetings_path) || current_page?(root_path)%>
+            <%= link_to "チャットルームへ", rooms_path,class: :link_btn %><br><br>
+             <%= link_to "新しい予定",  new_meeting_path,class: :link_btn %><br>
+             
+            <% else %>
+          <%= link_to "学習管理へ", meetings_path,class: :study_btn%>
+          <% end %>
+          <% else%>
+          <div class='test'><%= link_to "ログイン", new_user_session_path, class: :link_btn %>
+             <%= link_to "新規登録",  new_user_registration_path, class: :link_btn %>
+          <% end%></div><br>
 
+        
+      
+          
 <table>
   <thead>
-    <tr>
+    <tr><br>
       <th>Category</th>
       <th>Start time</th>
       <th>finish time</th>

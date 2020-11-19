@@ -1,3 +1,10 @@
+<% if current_page?(root_path)%>
+            <%= link_to "チャットルームへ", rooms_path %><br>
+             <%= link_to "新しい予定",  new_meeting_path,class: :"link-btn" %>
+            <% else %>
+        <div><%= link_to "学習管理へ", meetings_path,class: :study_btn %></div><br>
+          
+          <% end %>
 <div class='wrapper'>
   <div class='side-bar'>
     <%= render "messages/side_bar" %>

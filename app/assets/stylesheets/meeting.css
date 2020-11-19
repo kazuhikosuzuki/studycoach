@@ -1,0 +1,27 @@
+.link_btn {
+border-radius: 5px;
+background-color: lightblue;
+padding: 5px;
+text-decoration: none;
+color: white;
+}
+
+.logout_btn {
+	border-radius: 5px;
+	background-color: lightblue;
+	padding: 5px;
+	text-decoration: none;
+	color: white;
+	text-align: right;
+	}
+
+	.study_btn {
+		border-radius: 5px;
+		background-color: lightblue;
+		padding: 5px;
+		text-decoration: none;
+		color: white;
+	
+		}
+
+		

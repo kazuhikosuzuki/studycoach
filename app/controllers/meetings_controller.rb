@@ -1,5 +1,6 @@
 class MeetingsController < ApplicationController
-  before_action :set_meeting, only: %i[show edit update destroy]
+  before_action :set_meeting, only: [:show, :edit, :update, :destroy]
+  before_action :authenticate_user!, except: [:index, :show]
 
   def index
     @meetings = Meeting.where(user_id: current_user).page(params[:page]).order(start_time: :asc).per(3)
