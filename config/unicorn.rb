@@ -1,9 +1,6 @@
 #サーバ上でのアプリケーションコードが設置されているディレクトリを変数に入れておく
 app_path = File.expand_path('../../../', __FILE__)  # 「../」が一つ増えている
 
-working_directory app_path
-
-ENV['BUNDLE_GEMFILE'] = app_path + "/Gemfile"
 
 #アプリケーションサーバの性能を決定する
 worker_processes 1
