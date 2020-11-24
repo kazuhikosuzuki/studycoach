@@ -128,6 +128,10 @@ Rails Version : Rails 6.0.3.4
 ### 環境構築
 - Ruby/Rails/JavaScript/AWS(EC2,RDS,Rout53,S3)
 
+### システム設計
+![システム設計図](https://user-images.githubusercontent.com/72254144/100058742-3296f900-2e6d-11eb-86c0-4ac3d24f680f.jpeg)
+
+
 ## Authors
 Kazuhiko Suzuki<br>
 - [GitHub](https://github.com/kazuhikosuzuki)<br>
