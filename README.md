@@ -129,7 +129,7 @@ Rails Version : Rails 6.0.3.4
 - Ruby/Rails/JavaScript/AWS(EC2,RDS,Rout53,S3)
 
 ### システム設計
-![システム設計図](https://user-images.githubusercontent.com/72254144/100058742-3296f900-2e6d-11eb-86c0-4ac3d24f680f.jpeg)
+<img width="954" alt="システム構成図20-11-24 " src="https://user-images.githubusercontent.com/72254144/100083121-62a1c480-2e8c-11eb-9770-e432733b82d1.png">
 
 
 ## Authors
