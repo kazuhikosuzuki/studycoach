@@ -10,9 +10,9 @@
 - password :2222
 
 ・test account
-- user: test_user
-- email: test@gmail.com
-- password :test123
+簡単ログイン機能を実装しております。
+画面左上の`ゲストログイン（閲覧用）`を押していだければ、
+１クリックでユーザー登録なしでログインすることができます。
 
 ## 利用方法
 
