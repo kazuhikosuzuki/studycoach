@@ -6,4 +6,8 @@ class ApplicationController < ActionController::Base
   def configure_permitted_parameters
     devise_parameter_sanitizer.permit(:sign_up, keys: [:name])
   end
+<<<<<<< HEAD
+=======
+
+>>>>>>> parent of 29a7599... ベーシック認証の分岐
 end
