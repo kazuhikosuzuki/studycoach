@@ -4,11 +4,6 @@
 
 - http://studycoach.space
 
-・Basic Authentication
-
-- userID: admin
-- password :2222
-
 
 ## test accountについて
 簡単ログイン機能を実装しております。
