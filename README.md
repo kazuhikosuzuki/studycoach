@@ -126,7 +126,6 @@ Rails Version : Rails 6.0.3.4
 ### システム設計
 <img width="954" alt="システム構成図20-11-24 " src="https://user-images.githubusercontent.com/72254144/100083121-62a1c480-2e8c-11eb-9770-e432733b82d1.png">
 
-
 ## Authors
 Kazuhiko Suzuki<br>
 - [GitHub](https://github.com/kazuhikosuzuki)<br> 
