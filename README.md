@@ -2,7 +2,7 @@
 
 ・URL 
 
-- http://studycoach.space
+- http://54.248.209.160
 
 
 ## test accountについて
